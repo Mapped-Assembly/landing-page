@@ -1,13 +1,14 @@
 # Mapped Assembly landing page
 
-Static, dependency-free landing page for Mapped Assembly. It is ready to deploy on Vercel as a plain static project.
+Minimal Astro landing page for Mapped Assembly. It builds to static HTML and is ready to deploy on Vercel.
 
 ## Local preview
 
-Open `index.html` directly, or serve the directory with any static file server:
+Install dependencies and start the development server:
 
 ```bash
-python -m http.server 8000
+npm install
+npm run dev
 ```
 
-Then visit `http://localhost:8000`.
+Build for production with `npm run build`.
